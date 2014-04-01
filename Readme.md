@@ -13,6 +13,29 @@ example:
 Input to getSFNeighNames is a list of (lon, lat) tuples and
 it returns a list of strings containing the neighborhood names.
 
+
+<h2>Installation instructions</h2>
+These instructions assume that you are going to use this script
+in a virtualenv. If you are not using a virtualenv, simply run `sudo
+pip install xyz` instead of `pip install xyz` in the commands below.
+
+
+```
+# start new bash shell
+# and create a new virtual environment
+sudo apt-get install python-software-properties
+sudo add-apt-repository ppa:ubuntugis/ppa
+sudo apt-get update
+sudo apt-get install libgdal-dev
+
+# use sudo in pip installs if not in a virtualenv
+pip install fiona
+pip install pyproj
+pip install shapely
+```
+
+<h2>More info</h2>
+
 The neighborhoods that the script (or shapedata) knows about:
 
 ```
