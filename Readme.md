@@ -15,6 +15,7 @@ it returns a list of strings containing the neighborhood names.
 
 The neighborhoods that the script (or shapedata) knows about:
 
+```
 'Alamo Square',
 'Anza Vista',
 'Apparel City',
@@ -132,7 +133,7 @@ The neighborhoods that the script (or shapedata) knows about:
 'Westwood Highlands',
 'Westwood Park',
 'Yerba Buena Island'
-
+```
 
 The free shape data used by the script is courtesy of sfgov.
 
