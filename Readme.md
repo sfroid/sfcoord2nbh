@@ -16,7 +16,7 @@ it returns a list of strings containing the neighborhood names.
 
 <h2>Installation instructions</h2>
 These instructions assume that you are going to use this script
-in a virtualenv. If you are not using a virtualenv, simply run `sudo
+in a virtualenv. If you are not using a virtualenv, simply use `sudo
 pip install xyz` instead of `pip install xyz` in the commands below.
 
 
