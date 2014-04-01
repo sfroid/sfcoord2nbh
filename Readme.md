@@ -15,6 +15,10 @@ it returns a list of strings containing the neighborhood names.
 
 
 <h2>Installation instructions</h2>
+
+You will need a few dependencies, that can be easily installed on
+Ubuntu.
+
 These instructions assume that you are going to use this script
 in a virtualenv. If you are not using a virtualenv, simply use `sudo
 pip install xyz` instead of `pip install xyz` in the commands below.
@@ -33,6 +37,9 @@ pip install fiona
 pip install pyproj
 pip install shapely
 ```
+
+Now, you can simply clone this repository and run the
+example code given above to test the script.
 
 <h2>More info</h2>
 
